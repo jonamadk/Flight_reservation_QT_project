@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reserve</class>
+ <widget class="QDialog" name="reserve">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>539</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>10</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb( 0,191,255);
+  color: white; 
+  border: 0.5px solid gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>RESERVATION - DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>110</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+  background-color: rgb( 221,160,221);
+  color: black; 
+  border: 1px solid gray;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pp">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>160</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+  background-color: rgb( 221,160,221);
+  color: black; 
+  border: 1px solid gray;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>210</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+  background-color: rgb( 221,160,221);
+  color: black; 
+  border: 1px solid gray;
+}</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="fn">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>260</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+  background-color: rgb( 221,160,221);
+  color: black; 
+  border: 1px solid gray;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>101:  KTM - POKHARA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>102:  KTM-HETAUDA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>103:  DANG- DOLPA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>104:  KTM- AUSTRALIA</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb( 255,218,185);
+  color: black; 
+  border: 0.5px solid gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>ADDRESS:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="loc">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>331</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+  background-color: rgb( 221,160,221);
+  color: black; 
+  border: 1px solid gray;
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="can">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>370</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="statusTip">
+    <string>233</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: rgb( 139,0,0);
+  color: white; 
+  border: 8px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: rgb( 0,0,255);
+  color: white; 
+  border: 8px solid gray;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #FF7832, stop: 1 #FF9739);
+}</string>
+   </property>
+   <property name="text">
+    <string>Confirm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb( 255,218,185);
+  color: black; 
+  border: 0.5px solid gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>FLIGHT NO:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb( 255,218,185);
+  color: black; 
+  border: 0.5px solid gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>CONTACT N0:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb( 255,218,185);
+  color: black; 
+  border: 0.5px solid gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>PASSPORT NO:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb( 255,218,185);
+  color: black; 
+  border: 0.5px solid gray;
+}</string>
+   </property>
+   <property name="text">
+    <string>FULL- NAME:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Contacts/Desktop/image.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>541</width>
+     <height>291</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+  background-color: rgb(128, 128, 255);
+  color: white; 
+  border: 1px black;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Contacts/Desktop/486a306046b0f757c8bb2e46aac7c384.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>350</y>
+     <width>541</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+  background-color: rgb( 221,160,221);
+  color: white; 
+  border: 1px solid gray;
+}</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>541</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit {
+  background-color: rgb( 221,160,221);
+  color: white; 
+  border: 1px solid gray;
+}</string>
+   </property>
+  </widget>
+  <zorder>textEdit_2</zorder>
+  <zorder>textEdit</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>name</zorder>
+  <zorder>pp</zorder>
+  <zorder>cn</zorder>
+  <zorder>fn</zorder>
+  <zorder>label_5</zorder>
+  <zorder>loc</zorder>
+  <zorder>can</zorder>
+  <zorder>confirm</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
